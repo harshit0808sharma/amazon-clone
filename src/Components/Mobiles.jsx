@@ -1,0 +1,26 @@
+// import { MobileData } from "../assets/Data";
+import { Link } from "react-router-dom";
+import { MobileData } from "../assets/Data";
+const Mobiles = () => {
+  return (
+    <> 
+        <div className="home-product-components">
+          <h3>Up to 50% off | Try a specil Offer on Watches</h3>
+          <div className="home-product-content">
+            {MobileData.map((items, index)=> (
+                    <>
+                      <Link to={`/product?id=${items.id}`}>
+                        <div className="home-product-container" key={index}>
+                            <img src={items.imgSrc} alt="random" width="200px" height="180px"/>
+                        </div>
+                      </Link>
+                
+                    </>
+            ))}
+          </div>
+        </div>
+    </>
+  )
+}
+
+export default Mobiles;
