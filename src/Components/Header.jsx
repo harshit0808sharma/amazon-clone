@@ -113,7 +113,7 @@ const Header = ({ item = 0, showMessage, setCategory, category, openMenu, setOpe
                 <p>{item} Item added</p>
             </div>
             <div className='navbar'>
-                <Navbar setCategory={setCategory} category={category} setOpenMenu={setOpenMenu}/>
+                {/* <Navbar setCategory={setCategory} category={category} setOpenMenu={setOpenMenu}/> */}
             </div>
             <div className={`menu-items ${openMenu? "menu-visible":  "menu-hidden"}`}>
                 <h3 style={{color: "white", width: "100%", padding: "6px 2rem", background: "#313957", display: "flex", justifyContent: "space-between", alignItems: "center"}}> 

@@ -931,12 +931,12 @@ export const MobileData =  [
         id: 80,
         categoryId: 1,
         imgSrc: mobile1,
-        productName: 'Realme Narzo 30',
-        productBrand: 'REALME',
+        productName: 'Redmi',
+        productBrand: 'REDMI',
         productPrices: {
-            price: '14,890',
+            price: '16,890',
             discount: '-24%',
-            cutPrice: '16,999'
+            cutPrice: '20,999'
         },
         productReviews: {
             rating: '4.2',
@@ -950,12 +950,12 @@ export const MobileData =  [
         id: 81,
         categoryId: 1,
         imgSrc: mobile2,
-        productName: 'Realme Narzo 30',
-        productBrand: 'REALME',
+        productName: 'Infinix',
+        productBrand: 'INFINIX',
         productPrices: {
-            price: '14,890',
+            price: '24,890',
             discount: '-24%',
-            cutPrice: '16,999'
+            cutPrice: '30,999'
         },
         productReviews: {
             rating: '4.2',
@@ -978,7 +978,7 @@ export const MobileData =  [
         },
         productReviews: {
             rating: '4.4',
-            raview: '15,350',
+            raview: '19,350',
         },
         about: {
             firstPoint: "Camera: Sensor: 50MP Main Camera width SonyIMX890 (OIS Supported), 8MP Ultrawide Camera (FOV: 120) degree and Macro Lens; 16MP Front (Selfie) Camera with EIS support.",
@@ -988,12 +988,12 @@ export const MobileData =  [
         id: 83,
         categoryId: 1,
         imgSrc: mobile6,
-        productName: 'Realme Narzo 30',
-        productBrand: 'REALME',
+        productName: 'One Plus',
+        productBrand: 'ONE PLUS',
         productPrices: {
-            price: '14,890',
+            price: '22,990',
             discount: '-24%',
-            cutPrice: '16,999'
+            cutPrice: '32,999'
         },
         productReviews: {
             rating: '4.2',
@@ -1007,12 +1007,12 @@ export const MobileData =  [
         id: 84,
         categoryId: 1,
         imgSrc: mobile7,
-        productName: 'Realme Narzo 30',
-        productBrand: 'REALME',
+        productName: 'Oppo A54 5G',
+        productBrand: 'OPPO',
         productPrices: {
-            price: '14,890',
+            price: '24,890',
             discount: '-24%',
-            cutPrice: '16,999'
+            cutPrice: '35,999'
         },
         productReviews: {
             rating: '4.2',
@@ -1031,7 +1031,7 @@ export const MobileData =  [
         productPrices: {
             price: '14,890',
             discount: '-24%',
-            cutPrice: '16,999'
+            cutPrice: '18,999'
         },
         productReviews: {
             rating: '4.2',
@@ -1045,12 +1045,12 @@ export const MobileData =  [
         id: 86,
         categoryId: 1,
         imgSrc: mobile9,
-        productName: 'Realme Narzo 30',
-        productBrand: 'REALME',
+        productName: 'Pocco',
+        productBrand: 'POCCO',
         productPrices: {
-            price: '14,890',
+            price: '15,890',
             discount: '-24%',
-            cutPrice: '16,999'
+            cutPrice: '19,999'
         },
         productReviews: {
             rating: '4.2',

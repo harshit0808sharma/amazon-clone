@@ -11,6 +11,7 @@ import Footer from "../Components/Footer"
 import { useEffect, useState } from "react"
 import { MobileData, ClothsData, GlassesData, WatchsData, HeadPhones } from "../assets/Data";
 import { Link } from "react-router-dom"
+import Navbar from "../Components/Navbar"
 // import Navbar from "../Components/Navbar"
 const Home = ({item}) => {
   const [totalData, setTotalData] = useState([...MobileData, ...ClothsData, ...GlassesData, ...WatchsData, ...HeadPhones]);
@@ -30,6 +31,7 @@ const Home = ({item}) => {
     <>
         <div className="home-page">
             <Header item={item} setCategory={setCategory} category={category} setOpenMenu={setOpenMenu} openMenu={openMenu}/>
+            <Navbar setCategory={setCategory} category={category} setOpenMenu={setOpenMenu}/>
             {
               category === 0? (
                 <div className={`home-container ${openMenu? "decrease-visibility": ""}`}>

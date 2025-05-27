@@ -31,8 +31,8 @@ const CartPage = ({ store, handleRemoveItem, item }) => {
                                     <span style={{color: "red",textDecoration: "line-through"}}>Price: &#8377;{item?.productPrices?.cutPrice}</span>
                                 </div>
                                 <div className="cart-btns">
-                                    <button className="remove-item-btn" onClick={()=> handleRemoveItem(index)}><DeleteOutline/>Remove Item</button>
-                                    <Link to={`/productbuy?id=${item?.id}`} className="buy-item-btn">Buy Now</Link>
+                                    <button className="remove-item-btn" onClick={()=> handleRemoveItem(index)}><DeleteOutline/>Remove</button>
+                                    <Link to={`/productbuy?id=${item?.id}`} className="buy-item-btn">Buy</Link>
                                 </div>
                             </div>
                         </>

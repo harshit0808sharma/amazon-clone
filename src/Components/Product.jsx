@@ -41,15 +41,14 @@ const Product = ({handleAddToCart}) => {
                         <li>{data?.about?.firstPoint}</li>
                         <li>{data?.about?.secondPoint}</li>
                     </ul>
-
-                </div>
-                <div className="product-buy">
-                    <h2 className='product-prices' style={{marginLeft: '10px'}}>{data?.productPrices?.price}</h2>
-                    <p>FREE delivery 5 - 6 July. Order within <span style={{color: "green"}}>16 hrs 46mins. </span> Details <LocationOnOutlined/> <span style={{color: "#00add0"}}>Delivering to Chhindwar 480001 -Update location</span></p>
-                    <h4>Add a Protection Plan:</h4>
-                    <button style={{display: 'inline-block', width: '100%', fontSize: "18px", background: 'yellow', borderRadius: "50px", padding: "4px 0", border: '0', margin: "6px 0", cursor: "pointer"}} onClick={()=> handleAddToCart(data)}>Add to Cart</button>
-                    <Link to={`/productbuy?id=${data?.id}`} style={{display: 'inline-block', width: '100%', fontSize: "18px", background: 'orange', borderRadius: "50px", padding: "4px 0", border: '0', margin: "6px 0", cursor: "pointer", textAlign: "center"}}>Buy Now</Link>
-                    <p style={{display: "flex", alignItems: "center"}}><Lock/> Secure transaction</p>
+                    <div className="product-buy">
+                        <h2 className='product-prices' style={{marginLeft: '10px'}}>{data?.productPrices?.price}</h2>
+                        <p>FREE delivery 5 - 6 July. Order within <span style={{color: "green"}}>16 hrs 46mins. </span> Details <LocationOnOutlined/> <span style={{color: "#00add0"}}>Delivering to Chhindwar 480001 -Update location</span></p>
+                        <h4>Add a Protection Plan:</h4>
+                        <button style={{display: 'inline-block', width: '100%', fontSize: "18px", background: 'yellow', borderRadius: "50px", padding: "4px 0", border: '0', margin: "6px 0", cursor: "pointer"}} onClick={()=> handleAddToCart(data)}>Add to Cart</button>
+                        <Link to={`/productbuy?id=${data?.id}`} style={{display: 'inline-block', width: '100%', fontSize: "18px", background: 'orange', borderRadius: "50px", padding: "4px 0", border: '0', margin: "6px 0", cursor: "pointer", textAlign: "center"}}>Buy Now</Link>
+                        <p style={{display: "flex", alignItems: "center"}}><Lock/> Secure transaction</p>
+                    </div>
                 </div>
             </div>
         </div>
