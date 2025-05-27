@@ -27,6 +27,7 @@ const Home = ({item}) => {
     filterResult();
   }, [category])
   // console.log(data);
+
   return (
     <>
         <div className="home-page">

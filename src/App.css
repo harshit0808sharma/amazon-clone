@@ -1283,10 +1283,11 @@ a{
   /* padding: 2rem 0; */
 }
 .single-product-container .product-image{
+  text-align: center;
   padding: 2rem;
 }
 .single-product-container .product-image img{
-   width: 100%;
+   width: 50%;
   border-radius: 8px;
 }
 .single-product-container .product-details{
